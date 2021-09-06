@@ -1,0 +1,23 @@
+{
+  "name": "numen",
+  "version": "1.0.0",
+  "description": "numen practicas con javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --collectCoverage=false",
+    "test5": "jest JavaScript-4.test.js  --useStderr --json --outputFile=./JavaScript-4/tareas/tests/result.json",
+    "test6": "jest JavaScript-5.test.js  --useStderr --json --outputFile=./JavaScript-5/tareas/tests/result.json",
+    "test7": "jest JavaScript-6.test.js  --useStderr --json --outputFile=./JavaScript-6/tareas/tests/result.json"
+  },
+  "devDependencies": {
+    "eslint": "^7.14.0",
+    "jest": "^26.6.3",
+    "node-fetch": "^2.6.1",
+    "prompts": "^2.4.0"
+  },
+  "author": "Numen",
+  "license": "ISC",
+  "jest": {
+    "testURL": "http://localhost/"
+  }
+}
